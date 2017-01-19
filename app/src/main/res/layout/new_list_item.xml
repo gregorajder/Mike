@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="vo"
+            type="com.gregorajdergmail.mymike.vm.viewObject.TrackVO" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/fl_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/standard_margin"
+        android:layout_marginStart="@dimen/standard_margin"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/view_card"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/standard_margin"
+                    android:clickable="true"
+                    android:onClick="@{vo::playClick}"
+                    android:src="@{vo.playing ?  @drawable/play_selected : @drawable/play_no_selected}"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/standard_margin"
+                    android:text="@={vo.name}"
+                    android:textAppearance="?attr/textAppearanceListItem" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</layout>
