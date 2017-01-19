@@ -12,8 +12,7 @@ import com.gregorajdergmail.mymike.App;
 import com.gregorajdergmail.mymike.R;
 import com.gregorajdergmail.mymike.databinding.NewFragmentRecyclerListBinding;
 import com.gregorajdergmail.mymike.util.Log;
-import com.gregorajdergmail.mymike.vm.viewObject.NewListVO;
-import com.squareup.leakcanary.RefWatcher;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.NewListVO;
 
 import javax.inject.Inject;
 

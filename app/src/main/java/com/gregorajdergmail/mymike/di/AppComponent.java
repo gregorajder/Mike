@@ -4,8 +4,8 @@ import com.gregorajdergmail.mymike.di.modules.ModelModule;
 import com.gregorajdergmail.mymike.di.modules.ViewModule;
 import com.gregorajdergmail.mymike.view.activity.MainActivity;
 import com.gregorajdergmail.mymike.view.fragment.NewRecyclerFragment;
-import com.gregorajdergmail.mymike.vm.viewObject.ActivityVO;
-import com.gregorajdergmail.mymike.vm.viewObject.NewListVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.ActivityVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.NewListVO;
 
 import javax.inject.Singleton;
 

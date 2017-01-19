@@ -10,7 +10,7 @@ import com.gregorajdergmail.mymike.R;
 import com.gregorajdergmail.mymike.databinding.ActivityMainBinding;
 import com.gregorajdergmail.mymike.util.Log;
 import com.gregorajdergmail.mymike.view.fragment.NewRecyclerFragment;
-import com.gregorajdergmail.mymike.vm.viewObject.ActivityVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.ActivityVO;
 
 import javax.inject.Inject;
 

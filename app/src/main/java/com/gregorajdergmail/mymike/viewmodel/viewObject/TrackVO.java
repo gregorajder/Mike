@@ -1,12 +1,8 @@
-package com.gregorajdergmail.mymike.vm.viewObject;
+package com.gregorajdergmail.mymike.viewmodel.viewObject;
 
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
-import android.databinding.BindingAdapter;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.view.View;
-import android.widget.ImageView;
 
 import com.gregorajdergmail.mymike.BR;
 import com.gregorajdergmail.mymike.util.Log;

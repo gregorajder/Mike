@@ -7,7 +7,7 @@
 
         <variable
             name="vo"
-            type="com.gregorajdergmail.mymike.vm.viewObject.ActivityVO" />
+            type="com.gregorajdergmail.mymike.viewmodel.viewObject.ActivityVO" />
     </data>
 
     <android.support.design.widget.CoordinatorLayout

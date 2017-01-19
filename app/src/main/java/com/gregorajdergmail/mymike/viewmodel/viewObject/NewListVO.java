@@ -1,4 +1,4 @@
-package com.gregorajdergmail.mymike.vm.viewObject;
+package com.gregorajdergmail.mymike.viewmodel.viewObject;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -21,7 +21,6 @@ import com.gregorajdergmail.mymike.view.adapter.NewRecyclerViewAdapter;
 import com.gregorajdergmail.mymike.view.vizualiser.NewVisualizerView;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.inject.Inject;

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.gregorajdergmail.mymike.R;
 import com.gregorajdergmail.mymike.databinding.NewListItemBinding;
-import com.gregorajdergmail.mymike.vm.viewObject.TrackVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.TrackVO;
 
 import java.util.List;
 

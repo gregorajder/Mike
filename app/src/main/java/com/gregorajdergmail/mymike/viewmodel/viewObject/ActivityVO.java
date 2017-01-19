@@ -1,4 +1,4 @@
-package com.gregorajdergmail.mymike.vm.viewObject;
+package com.gregorajdergmail.mymike.viewmodel.viewObject;
 
 import android.databinding.BaseObservable;
 import android.databinding.BindingAdapter;

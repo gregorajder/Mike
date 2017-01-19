@@ -1,6 +1,6 @@
 package com.gregorajdergmail.mymike.util.rx;
 
-import com.gregorajdergmail.mymike.vm.viewObject.TrackVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.TrackVO;
 
 import java.io.File;
 

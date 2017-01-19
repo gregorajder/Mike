@@ -8,7 +8,7 @@ import android.os.Binder;
 import android.os.IBinder;
 
 import com.gregorajdergmail.mymike.util.Log;
-import com.gregorajdergmail.mymike.vm.viewObject.TrackVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.TrackVO;
 
 import java.io.IOException;
 

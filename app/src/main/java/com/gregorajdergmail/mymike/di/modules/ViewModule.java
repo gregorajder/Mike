@@ -1,7 +1,7 @@
 package com.gregorajdergmail.mymike.di.modules;
 
-import com.gregorajdergmail.mymike.vm.viewObject.ActivityVO;
-import com.gregorajdergmail.mymike.vm.viewObject.NewListVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.ActivityVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.NewListVO;
 
 import javax.inject.Singleton;
 

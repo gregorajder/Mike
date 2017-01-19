@@ -4,7 +4,7 @@ import android.os.Environment;
 
 import com.gregorajdergmail.mymike.App;
 import com.gregorajdergmail.mymike.util.rx.FileToTrackVOFunction;
-import com.gregorajdergmail.mymike.vm.viewObject.TrackVO;
+import com.gregorajdergmail.mymike.viewmodel.viewObject.TrackVO;
 
 import java.io.File;
 
@@ -16,7 +16,6 @@ public class MikeModel {
     private FileModel fileModel;
 
     private String tracksDirectory = App.getContext().getExternalFilesDir(Environment.DIRECTORY_MUSIC).getPath();
-    private String graphDirectory = App.getContext().getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS).getPath();
 
 
     private FileModel getFileModel(){
